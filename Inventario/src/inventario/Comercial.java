@@ -9,8 +9,13 @@ package inventario;
  *
  * @author usuario
  */
-public class Comercial {
+public class Comercial extends Vehiculo{
 
-    
+    String Carga_maxima;
+
+    public Comercial(String Placa, String Tipo, String Velocidad, String Pasajeros){
+
+        
+    }
     
 }
