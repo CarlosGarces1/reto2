@@ -10,5 +10,7 @@ package inventario;
  * @author usuario
  */
 public class Comercial {
+
+    
     
 }
