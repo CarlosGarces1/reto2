@@ -9,8 +9,25 @@ package inventario;
  *
  * @author usuario
  */
-public class Particular {
+public class Particular extends Vehiculo{
 
-    //hola
+    
+    String Color;
+
+    public Comercial(String Placa, String Tipo, String Velocidad, String Pasajeros, String Color){
+
+        super(Placa,Tipo,Pasajeros,Velocidad);
+        this.Color=Color;
+    }
+
+    @override
+    public String toString(){
+        String salida = "\t Vehiculo Comercial - Placa: "+ this.Placa+"\n"
+        +"\t Velocidad: " + this.Velocidad + "km/h" + "\n"
+        +"\t Tipo: " + this.Tipo + "\n"
+        +"\t Pasajeros: " + this.Pasajeros + "\n" 
+        +"\t Color: " + this.Color + "\n"
+
+    }
     
 }
